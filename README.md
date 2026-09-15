@@ -1,8 +1,6 @@
 
 ### 👥 **Team Members**
 
-**Example:**
-
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Arjun Pun Magar   | @arjunmagarcode |Exploratory data analysis, data understanding, preprocessing support, feature analysis, and modeling support|
