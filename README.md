@@ -11,6 +11,7 @@
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 | Sophie Zhuang    | @sophie-26    | TBD          |
+| Lincoln Chitswa   | @Lincolntinodaishe   | EDA, Classification and Documentation        |
 
 ---
 
