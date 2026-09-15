@@ -7,7 +7,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Arjun Pun Magar   | @arjunmagarcode |TBD|
 | Prince Subedi  | @Dev-PrinceSubedi | TBD |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
+| Julia Zhao     | @JuliaaaZ123  | TBD                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
