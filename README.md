@@ -12,7 +12,7 @@
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 | Sophie Zhuang    | @sophie-26    | TBD          |
 | Lincoln Chitswa   | @Lincolntinodaishe   | EDA, Classification and Documentation        |
-| Christian Germain | @loldjy123   | Model training, data preparation, Feature analysis, Model evaluation      |
+| Christian Germain | @loldjy123   | Model training, Data preparation, Feature analysis, Model evaluation      |
 
 ---
 
