@@ -5,7 +5,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Arjun Pun Magar   | @arjunmagarcode |TBD|
+| Arjun Pun Magar   | @arjunmagarcode |Exploratory data analysis, data understanding, preprocessing support, feature analysis, and modeling support|
 | Prince Subedi  | @Dev-PrinceSubedi | TBD |
 | Julia Zhao     | @JuliaaaZ123  | TBD                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
