@@ -6,8 +6,7 @@
 | Arjun Pun Magar   | @arjunmagarcode |Exploratory data analysis, data understanding, preprocessing support, feature analysis, and modeling support|
 | Prince Subedi  | @Dev-PrinceSubedi | TBD |
 | Julia Zhao     | @JuliaaaZ123  | TBD                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Kevin Yang      |       | TBD  |
 | Sophie Zhuang    | @sophie-26    | TBD          |
 | Lincoln Chitswa   | @Lincolntinodaishe   | EDA, Classification and Documentation        |
 | Christian Germain | @loldjy123   | Model training, Data preparation, Feature analysis, Model evaluation      |
