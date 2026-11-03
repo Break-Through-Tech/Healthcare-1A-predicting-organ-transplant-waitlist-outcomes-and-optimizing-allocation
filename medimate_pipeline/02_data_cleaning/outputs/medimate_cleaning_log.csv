@@ -1,0 +1,13 @@
+Area,Decision,Details
+Raw data,Preserved original dataframe,All cleaning performed on df_clean; df_raw kept unchanged.
+Dates,Converted date fields to datetime,"INIT_DATE, END_DATE, DIALYSIS_DATE, TX_DATE, and COMPOSITE_DEATH_DATE converted."
+Invalid timelines,Flagged rather than deleted,59 rows have END_DATE before INIT_DATE and are excluded only from survival-duration modeling.
+BMI,Created BMI_TCR_clean,BMI <= 10 or > 100 converted to missing. Original BMI preserved.
+Functional status,Created FUNC_STAT_TCR_clean,Single unsupported value 1 converted to missing. Codes 996 and 998 preserved.
+Initial CPRA,Preserved missing values and created missingness flag,No imputation performed because missingness changes sharply after 2022.
+A2/A2B eligibility,Created A2A2B_status,"Separated non-B/not-applicable from B recorded 0, B recorded 1, and B missing."
+Dialysis date,Preserved structural missingness,All ON_DIALYSIS=N records lack DIALYSIS_DATE; timing inconsistencies retained for review.
+Repeated patients,Preserved registrations,PT_CODE retained so future train/test splits can keep the same patient in one split.
+Target validation,No corrections required,"event_adverse, event_transplant, and censored matched outcome for all 494,862 rows."
+Survival time,Created survival_time_days_clean,"Based on END_DATE - INIT_DATE for 494,803 valid timelines; 59 invalid timelines remain missing."
+Leakage,Excluded future information from baseline features,"End status/date, transplant fields, outcome-related fields, and wait duration are not baseline predictors."

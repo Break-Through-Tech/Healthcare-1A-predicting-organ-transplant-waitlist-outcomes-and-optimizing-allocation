@@ -1,0 +1,16 @@
+{
+    "primary_model": "XGBoost",
+    "feature_set": "No CPRA",
+    "validation_year": 2023,
+    "test_year": 2024,
+    "validation_selected_threshold": 0.050968822091817856,
+    "threshold_goal": "Approximately 50% recall on validation",
+    "test_roc_auc": 0.6742361130972558,
+    "test_pr_auc": 0.08595927098244749,
+    "test_brier_score": 0.036558332591512935,
+    "test_precision": 0.07184628237259816,
+    "test_recall": 0.4822429906542056,
+    "test_f1": 0.12506059137178865,
+    "test_top_decile_lift": 2.5290461641987885,
+    "test_top_10_capture_rate": 0.2529595015576324
+}

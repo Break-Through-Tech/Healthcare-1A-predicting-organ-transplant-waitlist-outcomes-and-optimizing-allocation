@@ -1,0 +1,16 @@
+Finding,Result
+Classification model,XGBoost
+Classification test ROC-AUC,0.6742
+Classification test PR-AUC,0.0860
+Classification test recall,48.22%
+Classification top-decile lift,2.53x
+Survival model,XGBoost Survival
+Survival test C-index,0.6784
+Low-risk 1-year adverse incidence,1.70%
+High-risk 1-year adverse incidence,6.60%
+High vs low risk ratio,3.87x
+Overall 1-year adverse incidence,3.88%
+Overall 1-year transplant incidence,30.07%
+Overall 5-year adverse incidence,20.00%
+Overall 5-year transplant incidence,58.95%
+Most important shared factors,"Age, functional status, region, ETHCAT, dialysis"

@@ -1,0 +1,12 @@
+Category,Finding,Result
+Classification,Final model,XGBoost
+Classification,2024 ROC-AUC,0.6742
+Classification,2024 PR-AUC,0.0860
+Classification,Top-decile lift,2.53x
+Survival,Final model,XGBoost Survival
+Survival,2024 C-index,0.6784
+Survival,High-risk 1-year adverse incidence,6.60%
+Survival,High vs Low 1-year risk,3.87x
+Competing Risks,Overall 1-year adverse incidence,3.88%
+Competing Risks,Overall 5-year adverse incidence,20.00%
+Shared Predictors,Most important shared factors,"Age, functional status, region, ETHCAT, dialysis"

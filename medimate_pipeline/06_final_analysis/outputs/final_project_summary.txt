@@ -1,0 +1,176 @@
+
+MEDIMATE KIDNEY WAITLIST — FINAL ANALYSIS SUMMARY
+
+PROJECT GOAL
+The project studied kidney waitlist outcomes using two related
+modeling approaches.
+
+1. Classification:
+   Predict whether a patient experiences an adverse outcome
+   within one year.
+
+2. Survival analysis:
+   Study how adverse risk changes over time while accounting
+   for censoring and transplant as a competing event.
+
+
+CLASSIFICATION RESULTS
+The final classification model was XGBoost.
+
+The model was trained on older registrations, validated on 2023,
+and tested on 2024.
+
+Final 2024 results:
+
+ROC-AUC: 0.6742
+PR-AUC: 0.0860
+Precision: 7.18%
+Recall: 48.22%
+F1: 0.1251
+Top-decile lift: 2.53x
+
+The highest-risk 10% of registrations contained about 25.3% of
+all adverse outcomes.
+
+Because adverse outcomes are rare, precision remained low even
+though the model was useful for ranking higher-risk patients.
+
+
+SURVIVAL RESULTS
+The final survival prediction model was XGBoost Survival.
+
+Validation C-index: 0.6737
+2024 test C-index: 0.6784
+
+The model separated the 2024 test cohort into clear risk groups.
+
+Low-risk 1-year adverse incidence: 1.70%
+Medium-risk: 3.71%
+High-risk: 6.60%
+
+The high-risk group had about 3.87 times the one-year adverse
+incidence of the low-risk group.
+
+
+COMPETING RISKS
+Transplant is a major competing event because a transplanted
+patient is no longer at risk of an adverse outcome on the same
+waitlist registration.
+
+Aalen-Johansen competing-risk analysis was therefore used for
+describing actual outcome probabilities.
+
+Overall cumulative incidence:
+
+1 year:
+Adverse outcome: 3.88%
+Transplant: 30.07%
+
+3 years:
+Adverse outcome: 12.68%
+Transplant: 48.15%
+
+5 years:
+Adverse outcome: 20.00%
+Transplant: 58.95%
+
+
+IMPORTANT FACTORS
+Age and functional status were the strongest and most consistent
+factors across both modeling approaches.
+
+Classification importance:
+Functional status: about 35.8%
+Age: about 31.6%
+
+Survival contribution:
+Age: about 34.9%
+Functional status: about 18.2%
+
+Other important factors included region, ETHCAT, dialysis status,
+BMI, blood type and gender.
+
+
+ADJUSTED COX FINDINGS
+The Cox proportional-hazards model was kept as an interpretable
+secondary survival model.
+
+Each additional 10 years of age was associated with about 30.5%
+higher adverse-event hazard.
+
+Dialysis was associated with about 15.0% higher hazard.
+
+Moderate functional status had about 32.9% higher hazard than
+good functional status.
+
+Poor functional status had about 2.36 times the adverse-event
+hazard of good functional status.
+
+These are adjusted associations and should not be interpreted
+as causal effects.
+
+
+SUBGROUP FINDINGS
+Adverse risk increased strongly with age.
+
+Poorer functional status was associated with higher adverse risk.
+
+Differences were also observed across ETHCAT, region, blood type,
+dialysis status and gender.
+
+Male and female classification recall was relatively similar,
+but larger differences were seen for some other subgroups.
+
+These differences do not automatically prove model bias.
+They may also reflect differences in clinical condition,
+geography, access, compatibility, allocation processes or other
+factors not included in the models.
+
+
+CPRA
+CPRA was tested during classification modeling.
+
+Adding CPRA produced almost no improvement in validation
+performance, while recent-year CPRA values were heavily missing.
+
+For this reason, the final classification and survival models
+did not use CPRA.
+
+
+LIMITATIONS
+The dataset does not contain every possible clinical factor.
+
+Adverse outcomes are relatively rare, which limits precision in
+the classification model.
+
+Recent cohorts have shorter follow-up.
+
+The 2024 predictive survival evaluation should mainly be
+interpreted at the one-year horizon.
+
+Subgroup differences are descriptive and do not prove causation
+or unfair treatment.
+
+Model explanations describe model behavior, not causal effects.
+
+These models are intended for research and risk stratification.
+They should not be used alone to make clinical or organ-allocation
+decisions.
+
+
+FINAL CONCLUSION
+The classification and survival analyses tell a consistent story.
+
+XGBoost-based models provided the strongest predictive performance
+for both one-year adverse-event classification and time-to-event
+risk ranking.
+
+Age and functional status were the strongest shared predictors.
+
+The models were able to identify groups with meaningfully different
+future adverse risk, but performance was moderate rather than
+clinical-grade.
+
+The results support using the models as research tools for
+understanding kidney waitlist risk and identifying patterns that
+may deserve further investigation.
