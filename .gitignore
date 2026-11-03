@@ -1,1 +1,15 @@
 
+
+# MediMate private patient-level data
+medimate_cleaned_master.csv.gz
+medimate_modeling_base.csv.gz
+private_test_risk_predictions.csv.gz
+
+# Local/intermediate model artifacts
+*.joblib
+*.npz
+*.npy
+
+# Raw OPTN data
+*STAR*.csv
+*STAR*.csv.gz
