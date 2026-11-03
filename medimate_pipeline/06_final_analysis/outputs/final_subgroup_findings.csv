@@ -1,0 +1,8 @@
+Area,Main Finding,Interpretation
+Age,Adverse risk rises strongly with age.,"Association, not causation."
+Functional status,Poorer functional status is associated with substantially higher adverse risk.,"Association, not causation."
+Dialysis,Dialysis is associated with higher adjusted adverse hazard.,"Adjusted association, not causation."
+Gender,"Male and female classification recall was similar, although small risk differences remained.",Differences should not automatically be interpreted as model bias.
+Blood type,Blood type groups differ in transplant and adverse-event patterns.,Likely influenced by compatibility and allocation processes.
+ETHCAT,Performance and adverse-risk differences were observed across ETHCAT groups.,Requires careful fairness analysis; numeric ETHCAT codes should not be renamed without the official mapping.
+Region,Regional differences were present in both model behavior and outcome patterns.,"May reflect geography, access, center practices, or other factors."
