@@ -13,3 +13,16 @@ private_test_risk_predictions.csv.gz
 # Raw OPTN data
 *STAR*.csv
 *STAR*.csv.gz
+
+# MediMate Model Preparation private/intermediate files
+X_train*.npz
+X_val*.npz
+X_test*.npz
+y_train*.npy
+y_val*.npy
+y_test*.npy
+train_metadata.csv.gz
+val_metadata.csv.gz
+test_metadata.csv.gz
+preprocessor*.joblib
+medimate_model_preparation_outputs.zip
