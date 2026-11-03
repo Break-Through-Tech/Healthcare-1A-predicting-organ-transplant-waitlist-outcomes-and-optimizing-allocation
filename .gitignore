@@ -26,3 +26,8 @@ val_metadata.csv.gz
 test_metadata.csv.gz
 preprocessor*.joblib
 medimate_model_preparation_outputs.zip
+
+# MediMate classification private/model artifacts
+medimate_classification_modeling_outputs.zip
+private_test_risk_predictions.csv.gz
+*.joblib
