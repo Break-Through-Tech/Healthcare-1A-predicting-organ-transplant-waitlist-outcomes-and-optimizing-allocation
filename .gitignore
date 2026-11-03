@@ -29,12 +29,14 @@ medimate_model_preparation_outputs.zip
 
 # MediMate classification private/model artifacts
 medimate_classification_modeling_outputs.zip
-private_test_risk_predictions.csv.gz
-*.joblib
 
 # MediMate survival private/model artifacts
 medimate_survival_modeling_outputs.zip
-private_test_risk_predictions.csv.gz
 final_cox_model.joblib
 final_xgboost_survival_model.joblib
 final_xgboost_survival_model.json
+
+# MediMate dashboard
+__pycache__/
+*.pyc
+.streamlit/secrets.toml

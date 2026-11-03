@@ -1,0 +1,12 @@
+[theme]
+base = "light"
+primaryColor = "#176B87"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7F9"
+textColor = "#18212B"
+font = "sans serif"
+metricValueFontSize = "2rem"
+metricValueFontWeight = 700
+
+[server]
+headless = true
