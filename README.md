@@ -235,7 +235,7 @@ This project was developed collaboratively as part of Break Through Tech AI Stud
 
 **Prince Subedi** — Project Lead | Led and collaborated with team members across data analysis, preprocessing, feature engineering, machine learning, predictive modeling, model evaluation, survival analysis, fairness assessment, explainability, dashboard development, deployment, and documentation, integrating individual contributions into a unified end-to-end healthcare AI solution.
 
-**Arjun Pun Magar** — [Contribution]
+**Arjun Pun Magar** — EDA, Evaluation Framework, and Model Validation | Conducted column-level EDA across 494,862 OPTN kidney waitlist records and 40 variables, establishing the shared data foundation the full team built models on. Designed and implemented the standardized evaluation framework before model training, computing ROC-AUC, PR-AUC, Brier Score, Calibration Curve, Precision, Recall, and F1-Score to ensure fair comparison across all classifiers on a 93%+ class-imbalanced dataset. Led model evaluation review and pipeline integration during the November milestone, verifying that classification results (ROC-AUC 0.674, top-decile lift 2.53x), survival outputs (C-index 0.678), and SHAP fairness audits were reproducible and correctly documented across all team notebooks before final submission.
 
 **Julia Zhao** — [Contribution]
 
